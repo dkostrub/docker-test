@@ -36,9 +36,6 @@ docker network ls - список всех активных и неактивны
 docker-compose logs nginx
 ls -lah - для просмотра содержимого
 
-### container view
-docker-compose exec nginx bash
-
 ### PHP File installation location
 project/
 
@@ -47,10 +44,3 @@ project/
 - PHP7.2
 - nginx
 - mariaDB
-
-
-
-    mysql -uroot -proot
-    ALTER USER root IDENTIFIED WITH mysql_native_password BY 'root';
-    exit // выходим из базы данных
-    exit // выходим из контейнера mysql
