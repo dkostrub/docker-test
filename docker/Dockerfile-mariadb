@@ -1,0 +1,15 @@
+FROM mariadb:latest
+
+MAINTAINER Dmitriy Kostrub <dmitriy.kostrub@forforce.com>
+
+ARG MARIADB_VER
+ARG MYSQL_PORT
+
+ADD settings/mysql/custom.conf /etc/mysql/conf.d/custom.conf
+
+#RUN rm -rf /docker-entrypoint-initdb.d/dump.sql
+#ADD settings/mysql/sql/dump.sql /docker-entrypoint-initdb.d
+
+CMD ["mysqld"]
+
+EXPOSE 3306

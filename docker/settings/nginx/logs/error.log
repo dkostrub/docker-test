@@ -1,0 +1,1852 @@
+2022/01/04 16:28:18 [notice] 1#1: using the "epoll" event method
+2022/01/04 16:28:18 [notice] 1#1: nginx/1.20.2
+2022/01/04 16:28:18 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/04 16:28:18 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/04 16:28:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/04 16:28:18 [notice] 1#1: start worker processes
+2022/01/04 16:28:18 [notice] 1#1: start worker process 7
+2022/01/04 16:28:18 [notice] 1#1: start worker process 8
+2022/01/04 16:28:18 [notice] 1#1: start worker process 9
+2022/01/04 16:28:18 [notice] 1#1: start worker process 10
+2022/01/04 16:28:18 [notice] 1#1: start worker process 11
+2022/01/04 16:28:18 [notice] 1#1: start worker process 12
+2022/01/04 16:30:51 [error] 10#10: *1 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:02:45 [error] 8#8: *3 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:02:46 [error] 8#8: *3 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:02:47 [error] 8#8: *3 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:02:47 [error] 8#8: *3 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:02:48 [error] 8#8: *3 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:03:17 [error] 8#8: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "172.18.0.1"
+2022/01/04 17:03:17 [error] 8#8: *4 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: example.local, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.15:9000", host: "172.18.0.1", referrer: "http://172.18.0.1/"
+2022/01/04 17:03:23 [error] 8#8: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "172.18.0.1"
+2022/01/04 17:03:40 [error] 8#8: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "172.18.0.1"
+2022/01/04 17:05:11 [error] 8#8: *6 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "172.18.0.1"
+2022/01/04 17:05:11 [error] 8#8: *6 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "172.18.0.1"
+2022/01/04 17:26:58 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/04 17:26:58 [notice] 7#7: exiting
+2022/01/04 17:26:58 [notice] 11#11: exiting
+2022/01/04 17:26:58 [notice] 9#9: exiting
+2022/01/04 17:26:58 [notice] 8#8: exiting
+2022/01/04 17:26:58 [notice] 7#7: exit
+2022/01/04 17:26:58 [notice] 11#11: exit
+2022/01/04 17:26:58 [notice] 9#9: exit
+2022/01/04 17:26:58 [notice] 8#8: exit
+2022/01/04 17:26:58 [notice] 10#10: exiting
+2022/01/04 17:26:58 [notice] 10#10: exit
+2022/01/04 17:26:58 [notice] 12#12: exiting
+2022/01/04 17:26:58 [notice] 12#12: exit
+2022/01/04 17:26:58 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/04 17:26:58 [notice] 1#1: worker process 7 exited with code 0
+2022/01/04 17:26:58 [notice] 1#1: worker process 10 exited with code 0
+2022/01/04 17:26:58 [notice] 1#1: worker process 11 exited with code 0
+2022/01/04 17:26:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 17:26:58 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/04 17:26:58 [notice] 1#1: worker process 8 exited with code 0
+2022/01/04 17:26:58 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 17:26:58 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/04 17:26:58 [notice] 1#1: worker process 9 exited with code 0
+2022/01/04 17:26:58 [notice] 1#1: worker process 12 exited with code 0
+2022/01/04 17:26:58 [notice] 1#1: exit
+2022/01/04 17:27:24 [warn] 1#1: conflicting server name "example.local" on 0.0.0.0:80, ignored
+2022/01/04 17:27:24 [notice] 1#1: using the "epoll" event method
+2022/01/04 17:27:24 [notice] 1#1: nginx/1.20.2
+2022/01/04 17:27:24 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/04 17:27:24 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/04 17:27:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/04 17:27:24 [notice] 1#1: start worker processes
+2022/01/04 17:27:24 [notice] 1#1: start worker process 8
+2022/01/04 17:27:24 [notice] 1#1: start worker process 9
+2022/01/04 17:27:24 [notice] 1#1: start worker process 10
+2022/01/04 17:27:24 [notice] 1#1: start worker process 11
+2022/01/04 17:27:24 [notice] 1#1: start worker process 12
+2022/01/04 17:27:24 [notice] 1#1: start worker process 13
+2022/01/04 17:29:00 [error] 11#11: *1 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "172.18.0.1"
+2022/01/04 17:29:00 [error] 11#11: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: example.local, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.15:9000", host: "172.18.0.1", referrer: "http://172.18.0.1/"
+2022/01/04 17:29:07 [error] 9#9: *3 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:29:49 [error] 9#9: *3 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:32:06 [error] 9#9: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:32:07 [error] 9#9: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:32:07 [error] 9#9: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:32:07 [error] 9#9: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:32:19 [error] 9#9: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:32:19 [error] 9#9: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:32:43 [error] 9#9: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:32:44 [error] 9#9: *4 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/04 17:35:22 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/04 17:35:22 [notice] 8#8: exiting
+2022/01/04 17:35:22 [notice] 9#9: exiting
+2022/01/04 17:35:22 [notice] 11#11: exiting
+2022/01/04 17:35:22 [notice] 10#10: exiting
+2022/01/04 17:35:22 [notice] 13#13: exiting
+2022/01/04 17:35:22 [notice] 8#8: exit
+2022/01/04 17:35:22 [notice] 9#9: exit
+2022/01/04 17:35:22 [notice] 11#11: exit
+2022/01/04 17:35:22 [notice] 13#13: exit
+2022/01/04 17:35:22 [notice] 10#10: exit
+2022/01/04 17:35:22 [notice] 12#12: exiting
+2022/01/04 17:35:22 [notice] 12#12: exit
+2022/01/04 17:35:23 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/04 17:35:23 [notice] 1#1: worker process 9 exited with code 0
+2022/01/04 17:35:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 17:35:23 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/04 17:35:23 [notice] 1#1: worker process 10 exited with code 0
+2022/01/04 17:35:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 17:35:23 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/04 17:35:23 [notice] 1#1: worker process 8 exited with code 0
+2022/01/04 17:35:23 [notice] 1#1: worker process 11 exited with code 0
+2022/01/04 17:35:23 [notice] 1#1: worker process 12 exited with code 0
+2022/01/04 17:35:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 17:35:23 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/04 17:35:23 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2022/01/04 17:35:23 [notice] 1#1: worker process 13 exited with code 0
+2022/01/04 17:35:23 [notice] 1#1: exit
+2022/01/04 17:47:10 [warn] 1#1: conflicting server name "example.local" on 0.0.0.0:80, ignored
+2022/01/04 17:47:10 [notice] 1#1: using the "epoll" event method
+2022/01/04 17:47:10 [notice] 1#1: nginx/1.20.2
+2022/01/04 17:47:10 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/04 17:47:10 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/04 17:47:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/04 17:47:10 [notice] 1#1: start worker processes
+2022/01/04 17:47:10 [notice] 1#1: start worker process 7
+2022/01/04 17:47:10 [notice] 1#1: start worker process 8
+2022/01/04 17:47:10 [notice] 1#1: start worker process 9
+2022/01/04 17:47:10 [notice] 1#1: start worker process 10
+2022/01/04 17:47:10 [notice] 1#1: start worker process 11
+2022/01/04 17:47:10 [notice] 1#1: start worker process 12
+2022/01/04 17:50:19 [error] 11#11: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: example.local, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.15:9000", host: "localhost"
+2022/01/04 17:59:12 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/04 17:59:12 [notice] 11#11: exiting
+2022/01/04 17:59:12 [notice] 7#7: exiting
+2022/01/04 17:59:12 [notice] 11#11: exit
+2022/01/04 17:59:12 [notice] 7#7: exit
+2022/01/04 17:59:12 [notice] 10#10: exiting
+2022/01/04 17:59:12 [notice] 10#10: exit
+2022/01/04 17:59:12 [notice] 8#8: exiting
+2022/01/04 17:59:12 [notice] 8#8: exit
+2022/01/04 17:59:12 [notice] 9#9: exiting
+2022/01/04 17:59:12 [notice] 12#12: exiting
+2022/01/04 17:59:12 [notice] 12#12: exit
+2022/01/04 17:59:12 [notice] 9#9: exit
+2022/01/04 17:59:12 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/04 17:59:12 [notice] 1#1: worker process 9 exited with code 0
+2022/01/04 17:59:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 17:59:12 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/04 17:59:12 [notice] 1#1: worker process 7 exited with code 0
+2022/01/04 17:59:12 [notice] 1#1: worker process 8 exited with code 0
+2022/01/04 17:59:12 [notice] 1#1: worker process 12 exited with code 0
+2022/01/04 17:59:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 17:59:12 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/04 17:59:12 [notice] 1#1: worker process 10 exited with code 0
+2022/01/04 17:59:12 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 17:59:12 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/04 17:59:12 [notice] 1#1: worker process 11 exited with code 0
+2022/01/04 17:59:12 [notice] 1#1: exit
+2022/01/04 18:14:06 [warn] 1#1: conflicting server name "example.local" on 0.0.0.0:80, ignored
+2022/01/04 18:14:06 [notice] 1#1: using the "epoll" event method
+2022/01/04 18:14:06 [notice] 1#1: nginx/1.20.2
+2022/01/04 18:14:06 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/04 18:14:06 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/04 18:14:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/04 18:14:06 [notice] 1#1: start worker processes
+2022/01/04 18:14:06 [notice] 1#1: start worker process 7
+2022/01/04 18:14:06 [notice] 1#1: start worker process 8
+2022/01/04 18:14:06 [notice] 1#1: start worker process 9
+2022/01/04 18:14:06 [notice] 1#1: start worker process 10
+2022/01/04 18:14:06 [notice] 1#1: start worker process 11
+2022/01/04 18:14:06 [notice] 1#1: start worker process 12
+2022/01/04 18:36:02 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/04 18:36:02 [notice] 7#7: exiting
+2022/01/04 18:36:02 [notice] 7#7: exit
+2022/01/04 18:36:02 [notice] 8#8: exiting
+2022/01/04 18:36:02 [notice] 8#8: exit
+2022/01/04 18:36:02 [notice] 12#12: exiting
+2022/01/04 18:36:02 [notice] 12#12: exit
+2022/01/04 18:36:02 [notice] 10#10: exiting
+2022/01/04 18:36:02 [notice] 10#10: exit
+2022/01/04 18:36:02 [notice] 9#9: exiting
+2022/01/04 18:36:02 [notice] 9#9: exit
+2022/01/04 18:36:02 [notice] 11#11: exiting
+2022/01/04 18:36:02 [notice] 11#11: exit
+2022/01/04 18:36:02 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/04 18:36:02 [notice] 1#1: worker process 11 exited with code 0
+2022/01/04 18:36:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 18:36:02 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/04 18:36:02 [notice] 1#1: worker process 8 exited with code 0
+2022/01/04 18:36:02 [notice] 1#1: worker process 10 exited with code 0
+2022/01/04 18:36:02 [notice] 1#1: worker process 12 exited with code 0
+2022/01/04 18:36:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 18:36:02 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/04 18:36:02 [notice] 1#1: worker process 9 exited with code 0
+2022/01/04 18:36:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 18:36:02 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/04 18:36:02 [notice] 1#1: worker process 7 exited with code 0
+2022/01/04 18:36:02 [notice] 1#1: exit
+2022/01/04 21:30:49 [warn] 1#1: conflicting server name "example.local" on 0.0.0.0:80, ignored
+2022/01/04 21:30:49 [notice] 1#1: using the "epoll" event method
+2022/01/04 21:30:49 [notice] 1#1: nginx/1.20.2
+2022/01/04 21:30:49 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/04 21:30:49 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/04 21:30:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/04 21:30:49 [notice] 1#1: start worker processes
+2022/01/04 21:30:49 [notice] 1#1: start worker process 8
+2022/01/04 21:30:49 [notice] 1#1: start worker process 9
+2022/01/04 21:30:49 [notice] 1#1: start worker process 10
+2022/01/04 21:30:49 [notice] 1#1: start worker process 11
+2022/01/04 21:30:49 [notice] 1#1: start worker process 12
+2022/01/04 21:30:49 [notice] 1#1: start worker process 13
+2022/01/04 22:23:14 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/04 22:23:14 [notice] 9#9: exiting
+2022/01/04 22:23:14 [notice] 11#11: exiting
+2022/01/04 22:23:14 [notice] 10#10: exiting
+2022/01/04 22:23:14 [notice] 8#8: exiting
+2022/01/04 22:23:14 [notice] 9#9: exit
+2022/01/04 22:23:14 [notice] 11#11: exit
+2022/01/04 22:23:14 [notice] 10#10: exit
+2022/01/04 22:23:14 [notice] 8#8: exit
+2022/01/04 22:23:14 [notice] 12#12: exiting
+2022/01/04 22:23:14 [notice] 12#12: exit
+2022/01/04 22:23:14 [notice] 13#13: exiting
+2022/01/04 22:23:14 [notice] 13#13: exit
+2022/01/04 22:23:14 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/04 22:23:14 [notice] 1#1: worker process 9 exited with code 0
+2022/01/04 22:23:14 [notice] 1#1: worker process 8 exited with code 0
+2022/01/04 22:23:14 [notice] 1#1: worker process 10 exited with code 0
+2022/01/04 22:23:14 [notice] 1#1: worker process 12 exited with code 0
+2022/01/04 22:23:14 [notice] 1#1: worker process 13 exited with code 0
+2022/01/04 22:23:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 22:23:14 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/04 22:23:14 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/04 22:23:14 [notice] 1#1: worker process 11 exited with code 0
+2022/01/04 22:23:14 [notice] 1#1: exit
+2022/01/04 22:32:56 [warn] 1#1: conflicting server name "example.local" on 0.0.0.0:80, ignored
+2022/01/04 22:32:56 [notice] 1#1: using the "epoll" event method
+2022/01/04 22:32:56 [notice] 1#1: nginx/1.20.2
+2022/01/04 22:32:56 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/04 22:32:56 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/04 22:32:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/04 22:32:56 [notice] 1#1: start worker processes
+2022/01/04 22:32:56 [notice] 1#1: start worker process 6
+2022/01/04 22:32:56 [notice] 1#1: start worker process 7
+2022/01/04 22:32:56 [notice] 1#1: start worker process 8
+2022/01/04 22:32:56 [notice] 1#1: start worker process 9
+2022/01/04 22:32:56 [notice] 1#1: start worker process 10
+2022/01/04 22:32:56 [notice] 1#1: start worker process 11
+2022/01/04 22:53:34 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/04 22:53:34 [notice] 7#7: exiting
+2022/01/04 22:53:34 [notice] 6#6: exiting
+2022/01/04 22:53:34 [notice] 8#8: exiting
+2022/01/04 22:53:34 [notice] 7#7: exit
+2022/01/04 22:53:34 [notice] 8#8: exit
+2022/01/04 22:53:34 [notice] 6#6: exit
+2022/01/04 22:53:34 [notice] 9#9: exiting
+2022/01/04 22:53:34 [notice] 10#10: exiting
+2022/01/04 22:53:34 [notice] 9#9: exit
+2022/01/04 22:53:34 [notice] 10#10: exit
+2022/01/04 22:53:34 [notice] 11#11: exiting
+2022/01/04 22:53:34 [notice] 11#11: exit
+2022/01/04 22:53:34 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/04 22:53:34 [notice] 1#1: worker process 9 exited with code 0
+2022/01/04 22:53:34 [notice] 1#1: worker process 10 exited with code 0
+2022/01/04 22:53:34 [notice] 1#1: worker process 11 exited with code 0
+2022/01/04 22:53:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 22:53:34 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/04 22:53:34 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/04 22:53:34 [notice] 1#1: worker process 8 exited with code 0
+2022/01/04 22:53:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 22:53:34 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/04 22:53:34 [notice] 1#1: worker process 7 exited with code 0
+2022/01/04 22:53:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/04 22:53:34 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2022/01/04 22:53:34 [notice] 1#1: worker process 6 exited with code 0
+2022/01/04 22:53:34 [notice] 1#1: exit
+2022/01/05 01:12:58 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 01:12:58 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 01:12:58 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 01:12:58 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 01:12:58 [notice] 1#1: using the "epoll" event method
+2022/01/05 01:12:58 [notice] 1#1: nginx/1.20.2
+2022/01/05 01:12:58 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 01:12:58 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 01:12:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 01:12:58 [notice] 1#1: start worker processes
+2022/01/05 01:12:58 [notice] 1#1: start worker process 9
+2022/01/05 01:12:58 [notice] 1#1: start worker process 10
+2022/01/05 01:12:58 [notice] 1#1: start worker process 11
+2022/01/05 01:12:58 [notice] 1#1: start worker process 12
+2022/01/05 01:12:58 [notice] 1#1: start worker process 13
+2022/01/05 01:12:58 [notice] 1#1: start worker process 14
+2022/01/05 01:34:55 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2022/01/05 01:34:55 [alert] 1#1: unknown process 42 exited on signal 1
+2022/01/05 01:35:13 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 01:35:13 [notice] 11#11: exiting
+2022/01/05 01:35:13 [notice] 10#10: exiting
+2022/01/05 01:35:13 [notice] 12#12: exiting
+2022/01/05 01:35:13 [notice] 13#13: exiting
+2022/01/05 01:35:13 [notice] 14#14: exiting
+2022/01/05 01:35:13 [notice] 9#9: exiting
+2022/01/05 01:35:13 [notice] 10#10: exit
+2022/01/05 01:35:13 [notice] 9#9: exit
+2022/01/05 01:35:13 [notice] 13#13: exit
+2022/01/05 01:35:13 [notice] 12#12: exit
+2022/01/05 01:35:13 [notice] 11#11: exit
+2022/01/05 01:35:13 [notice] 14#14: exit
+2022/01/05 01:35:14 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2022/01/05 01:35:14 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 01:35:14 [notice] 1#1: worker process 13 exited with code 0
+2022/01/05 01:35:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 01:35:14 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 01:35:14 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 01:35:14 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 01:35:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 01:35:14 [notice] 1#1: signal 17 (SIGCHLD) received from 14
+2022/01/05 01:35:14 [notice] 1#1: worker process 14 exited with code 0
+2022/01/05 01:35:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 01:35:14 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 01:35:14 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 01:35:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 01:35:14 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 01:35:14 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 01:35:14 [notice] 1#1: exit
+2022/01/05 01:46:44 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 01:46:44 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 01:46:44 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 01:46:44 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 01:46:44 [notice] 1#1: using the "epoll" event method
+2022/01/05 01:46:44 [notice] 1#1: nginx/1.20.2
+2022/01/05 01:46:44 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 01:46:44 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 01:46:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 01:46:44 [notice] 1#1: start worker processes
+2022/01/05 01:46:44 [notice] 1#1: start worker process 7
+2022/01/05 01:46:44 [notice] 1#1: start worker process 8
+2022/01/05 01:46:44 [notice] 1#1: start worker process 9
+2022/01/05 01:46:44 [notice] 1#1: start worker process 10
+2022/01/05 01:46:44 [notice] 1#1: start worker process 11
+2022/01/05 01:46:44 [notice] 1#1: start worker process 12
+2022/01/05 02:13:26 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 02:13:26 [notice] 9#9: exiting
+2022/01/05 02:13:26 [notice] 10#10: exiting
+2022/01/05 02:13:26 [notice] 11#11: exiting
+2022/01/05 02:13:26 [notice] 8#8: exiting
+2022/01/05 02:13:26 [notice] 7#7: exiting
+2022/01/05 02:13:26 [notice] 12#12: exiting
+2022/01/05 02:13:26 [notice] 11#11: exit
+2022/01/05 02:13:26 [notice] 10#10: exit
+2022/01/05 02:13:26 [notice] 8#8: exit
+2022/01/05 02:13:26 [notice] 9#9: exit
+2022/01/05 02:13:26 [notice] 12#12: exit
+2022/01/05 02:13:26 [notice] 7#7: exit
+2022/01/05 02:13:26 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 02:13:26 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 02:13:26 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 02:13:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 02:13:26 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 02:13:26 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 02:13:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 02:13:26 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 02:13:26 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 02:13:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 02:13:26 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 02:13:26 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 02:13:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 02:13:26 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 02:13:26 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 02:13:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 02:13:26 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 02:13:26 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 02:13:26 [notice] 1#1: exit
+2022/01/05 02:19:29 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 02:19:29 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 02:19:29 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 02:19:29 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 02:19:29 [notice] 1#1: using the "epoll" event method
+2022/01/05 02:19:29 [notice] 1#1: nginx/1.20.2
+2022/01/05 02:19:29 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 02:19:29 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 02:19:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 02:19:29 [notice] 1#1: start worker processes
+2022/01/05 02:19:29 [notice] 1#1: start worker process 7
+2022/01/05 02:19:29 [notice] 1#1: start worker process 8
+2022/01/05 02:19:29 [notice] 1#1: start worker process 9
+2022/01/05 02:19:29 [notice] 1#1: start worker process 10
+2022/01/05 02:19:29 [notice] 1#1: start worker process 11
+2022/01/05 02:19:29 [notice] 1#1: start worker process 12
+2022/01/05 03:12:32 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 03:12:32 [notice] 7#7: exiting
+2022/01/05 03:12:32 [notice] 9#9: exiting
+2022/01/05 03:12:32 [notice] 7#7: exit
+2022/01/05 03:12:32 [notice] 9#9: exit
+2022/01/05 03:12:32 [notice] 8#8: exiting
+2022/01/05 03:12:32 [notice] 8#8: exit
+2022/01/05 03:12:32 [notice] 11#11: exiting
+2022/01/05 03:12:32 [notice] 11#11: exit
+2022/01/05 03:12:32 [notice] 12#12: exiting
+2022/01/05 03:12:32 [notice] 12#12: exit
+2022/01/05 03:12:32 [notice] 10#10: exiting
+2022/01/05 03:12:32 [notice] 10#10: exit
+2022/01/05 03:12:32 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 03:12:32 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 03:12:32 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 03:12:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 03:12:32 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 03:12:32 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 03:12:32 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 03:12:32 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 03:12:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 03:12:32 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 03:12:32 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 03:12:32 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 03:12:32 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 03:12:32 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 03:12:32 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 03:12:32 [notice] 1#1: exit
+2022/01/05 03:19:49 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 03:19:49 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 03:19:49 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 03:19:49 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 03:19:49 [notice] 1#1: using the "epoll" event method
+2022/01/05 03:19:49 [notice] 1#1: nginx/1.20.2
+2022/01/05 03:19:49 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 03:19:49 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 03:19:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 03:19:49 [notice] 1#1: start worker processes
+2022/01/05 03:19:49 [notice] 1#1: start worker process 6
+2022/01/05 03:19:49 [notice] 1#1: start worker process 7
+2022/01/05 03:19:49 [notice] 1#1: start worker process 8
+2022/01/05 03:19:49 [notice] 1#1: start worker process 9
+2022/01/05 03:19:49 [notice] 1#1: start worker process 10
+2022/01/05 03:19:49 [notice] 1#1: start worker process 11
+2022/01/05 03:22:47 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2022/01/05 03:22:47 [alert] 1#1: unknown process 39 exited on signal 1
+2022/01/05 03:38:52 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 03:38:52 [notice] 8#8: exiting
+2022/01/05 03:38:52 [notice] 9#9: exiting
+2022/01/05 03:38:52 [notice] 11#11: exiting
+2022/01/05 03:38:52 [notice] 11#11: exit
+2022/01/05 03:38:52 [notice] 8#8: exit
+2022/01/05 03:38:52 [notice] 9#9: exit
+2022/01/05 03:38:52 [notice] 10#10: exiting
+2022/01/05 03:38:52 [notice] 10#10: exit
+2022/01/05 03:38:52 [notice] 6#6: exiting
+2022/01/05 03:38:52 [notice] 6#6: exit
+2022/01/05 03:38:52 [notice] 7#7: exiting
+2022/01/05 03:38:52 [notice] 7#7: exit
+2022/01/05 03:38:52 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 03:38:52 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 03:38:52 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 03:38:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 03:38:52 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 03:38:52 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 03:38:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 03:38:52 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 03:38:52 [notice] 1#1: worker process 6 exited with code 0
+2022/01/05 03:38:52 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 03:38:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 03:38:52 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2022/01/05 03:38:52 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 03:38:52 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 03:38:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 03:38:52 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 03:38:52 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 03:38:52 [notice] 1#1: exit
+2022/01/05 03:47:03 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 03:47:03 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 03:47:03 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 03:47:03 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 03:47:03 [notice] 1#1: using the "epoll" event method
+2022/01/05 03:47:03 [notice] 1#1: nginx/1.20.2
+2022/01/05 03:47:03 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 03:47:03 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 03:47:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 03:47:03 [notice] 1#1: start worker processes
+2022/01/05 03:47:03 [notice] 1#1: start worker process 9
+2022/01/05 03:47:03 [notice] 1#1: start worker process 10
+2022/01/05 03:47:03 [notice] 1#1: start worker process 11
+2022/01/05 03:47:03 [notice] 1#1: start worker process 12
+2022/01/05 03:47:03 [notice] 1#1: start worker process 13
+2022/01/05 03:47:03 [notice] 1#1: start worker process 14
+2022/01/05 03:47:38 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 03:47:38 [notice] 12#12: exiting
+2022/01/05 03:47:38 [notice] 12#12: exit
+2022/01/05 03:47:38 [notice] 10#10: exiting
+2022/01/05 03:47:38 [notice] 10#10: exit
+2022/01/05 03:47:38 [notice] 9#9: exiting
+2022/01/05 03:47:38 [notice] 11#11: exiting
+2022/01/05 03:47:38 [notice] 11#11: exit
+2022/01/05 03:47:38 [notice] 13#13: exiting
+2022/01/05 03:47:38 [notice] 13#13: exit
+2022/01/05 03:47:38 [notice] 14#14: exiting
+2022/01/05 03:47:38 [notice] 14#14: exit
+2022/01/05 03:47:38 [notice] 9#9: exit
+2022/01/05 03:47:38 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 03:47:38 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 03:47:38 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 03:47:38 [notice] 1#1: worker process 13 exited with code 0
+2022/01/05 03:47:38 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 03:47:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 03:47:38 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2022/01/05 03:47:38 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 03:47:38 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 03:47:38 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 03:47:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 03:47:38 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 03:47:38 [notice] 1#1: signal 17 (SIGCHLD) received from 14
+2022/01/05 03:47:38 [notice] 1#1: worker process 14 exited with code 0
+2022/01/05 03:47:38 [notice] 1#1: exit
+2022/01/05 03:53:29 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 03:53:29 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 03:53:29 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 03:53:29 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 03:53:29 [notice] 1#1: using the "epoll" event method
+2022/01/05 03:53:29 [notice] 1#1: nginx/1.20.2
+2022/01/05 03:53:29 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 03:53:29 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 03:53:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 03:53:29 [notice] 1#1: start worker processes
+2022/01/05 03:53:29 [notice] 1#1: start worker process 7
+2022/01/05 03:53:29 [notice] 1#1: start worker process 8
+2022/01/05 03:53:29 [notice] 1#1: start worker process 9
+2022/01/05 03:53:29 [notice] 1#1: start worker process 10
+2022/01/05 03:53:29 [notice] 1#1: start worker process 11
+2022/01/05 03:53:29 [notice] 1#1: start worker process 12
+2022/01/05 04:02:10 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 04:02:10 [notice] 7#7: exiting
+2022/01/05 04:02:10 [notice] 8#8: exiting
+2022/01/05 04:02:10 [notice] 9#9: exiting
+2022/01/05 04:02:10 [notice] 10#10: exiting
+2022/01/05 04:02:10 [notice] 7#7: exit
+2022/01/05 04:02:10 [notice] 11#11: exiting
+2022/01/05 04:02:10 [notice] 8#8: exit
+2022/01/05 04:02:10 [notice] 10#10: exit
+2022/01/05 04:02:10 [notice] 9#9: exit
+2022/01/05 04:02:10 [notice] 12#12: exiting
+2022/01/05 04:02:10 [notice] 11#11: exit
+2022/01/05 04:02:10 [notice] 12#12: exit
+2022/01/05 04:02:11 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 04:02:11 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 04:02:11 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 04:02:11 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 04:02:11 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 04:02:11 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 04:02:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 04:02:11 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 04:02:11 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 04:02:11 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 04:02:11 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 04:02:11 [notice] 1#1: exit
+2022/01/05 04:02:11 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 04:02:11 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 04:02:11 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 04:02:11 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 04:02:11 [notice] 1#1: using the "epoll" event method
+2022/01/05 04:02:11 [notice] 1#1: nginx/1.20.2
+2022/01/05 04:02:11 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 04:02:11 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 04:02:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 04:02:11 [notice] 1#1: start worker processes
+2022/01/05 04:02:11 [notice] 1#1: start worker process 8
+2022/01/05 04:02:11 [notice] 1#1: start worker process 9
+2022/01/05 04:02:11 [notice] 1#1: start worker process 10
+2022/01/05 04:02:11 [notice] 1#1: start worker process 11
+2022/01/05 04:02:11 [notice] 1#1: start worker process 12
+2022/01/05 04:02:11 [notice] 1#1: start worker process 13
+2022/01/05 04:02:56 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 04:02:56 [notice] 8#8: exiting
+2022/01/05 04:02:56 [notice] 10#10: exiting
+2022/01/05 04:02:56 [notice] 11#11: exiting
+2022/01/05 04:02:56 [notice] 9#9: exiting
+2022/01/05 04:02:56 [notice] 8#8: exit
+2022/01/05 04:02:56 [notice] 10#10: exit
+2022/01/05 04:02:56 [notice] 11#11: exit
+2022/01/05 04:02:56 [notice] 9#9: exit
+2022/01/05 04:02:56 [notice] 13#13: exiting
+2022/01/05 04:02:56 [notice] 12#12: exiting
+2022/01/05 04:02:56 [notice] 12#12: exit
+2022/01/05 04:02:56 [notice] 13#13: exit
+2022/01/05 04:02:56 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 04:02:56 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 04:02:56 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 04:02:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 04:02:56 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 04:02:56 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 04:02:56 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 04:02:56 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 04:02:56 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 04:02:56 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 04:02:56 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2022/01/05 04:02:56 [notice] 1#1: worker process 13 exited with code 0
+2022/01/05 04:02:56 [notice] 1#1: exit
+2022/01/05 04:02:57 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 04:02:57 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 04:02:57 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 04:02:57 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 04:02:57 [notice] 1#1: using the "epoll" event method
+2022/01/05 04:02:57 [notice] 1#1: nginx/1.20.2
+2022/01/05 04:02:57 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 04:02:57 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 04:02:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 04:02:57 [notice] 1#1: start worker processes
+2022/01/05 04:02:57 [notice] 1#1: start worker process 7
+2022/01/05 04:02:57 [notice] 1#1: start worker process 8
+2022/01/05 04:02:57 [notice] 1#1: start worker process 9
+2022/01/05 04:02:57 [notice] 1#1: start worker process 10
+2022/01/05 04:02:57 [notice] 1#1: start worker process 11
+2022/01/05 04:02:57 [notice] 1#1: start worker process 12
+2022/01/05 04:05:10 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 04:05:10 [notice] 7#7: exiting
+2022/01/05 04:05:10 [notice] 9#9: exiting
+2022/01/05 04:05:10 [notice] 8#8: exiting
+2022/01/05 04:05:10 [notice] 12#12: exiting
+2022/01/05 04:05:10 [notice] 9#9: exit
+2022/01/05 04:05:10 [notice] 8#8: exit
+2022/01/05 04:05:10 [notice] 7#7: exit
+2022/01/05 04:05:10 [notice] 12#12: exit
+2022/01/05 04:05:10 [notice] 10#10: exiting
+2022/01/05 04:05:10 [notice] 10#10: exit
+2022/01/05 04:05:10 [notice] 11#11: exiting
+2022/01/05 04:05:10 [notice] 11#11: exit
+2022/01/05 04:05:10 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 04:05:10 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 04:05:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 04:05:10 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 04:05:10 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 04:05:10 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 04:05:10 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 04:05:10 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 04:05:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 04:05:10 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 04:05:10 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 04:05:10 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 04:05:10 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 04:05:10 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 04:05:10 [notice] 1#1: exit
+2022/01/05 04:05:11 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 04:05:11 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 04:05:11 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 04:05:11 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 04:05:11 [notice] 1#1: using the "epoll" event method
+2022/01/05 04:05:11 [notice] 1#1: nginx/1.20.2
+2022/01/05 04:05:11 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 04:05:11 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 04:05:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 04:05:11 [notice] 1#1: start worker processes
+2022/01/05 04:05:11 [notice] 1#1: start worker process 7
+2022/01/05 04:05:11 [notice] 1#1: start worker process 8
+2022/01/05 04:05:11 [notice] 1#1: start worker process 9
+2022/01/05 04:05:11 [notice] 1#1: start worker process 10
+2022/01/05 04:05:11 [notice] 1#1: start worker process 11
+2022/01/05 04:05:11 [notice] 1#1: start worker process 12
+2022/01/05 04:07:38 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 04:07:38 [notice] 7#7: exiting
+2022/01/05 04:07:38 [notice] 8#8: exiting
+2022/01/05 04:07:38 [notice] 8#8: exit
+2022/01/05 04:07:38 [notice] 7#7: exit
+2022/01/05 04:07:38 [notice] 10#10: exiting
+2022/01/05 04:07:38 [notice] 9#9: exiting
+2022/01/05 04:07:38 [notice] 11#11: exiting
+2022/01/05 04:07:38 [notice] 9#9: exit
+2022/01/05 04:07:38 [notice] 10#10: exit
+2022/01/05 04:07:38 [notice] 11#11: exit
+2022/01/05 04:07:38 [notice] 12#12: exiting
+2022/01/05 04:07:38 [notice] 12#12: exit
+2022/01/05 04:07:38 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 04:07:38 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 04:07:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 04:07:38 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 04:07:38 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 04:07:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 04:07:38 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 04:07:38 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 04:07:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 04:07:38 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 04:07:38 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 04:07:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 04:07:38 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 04:07:38 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 04:07:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 04:07:38 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 04:07:38 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 04:07:38 [notice] 1#1: exit
+2022/01/05 13:02:58 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 13:02:58 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 13:02:58 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 13:02:58 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 13:02:58 [notice] 1#1: using the "epoll" event method
+2022/01/05 13:02:58 [notice] 1#1: nginx/1.20.2
+2022/01/05 13:02:58 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 13:02:58 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 13:02:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 13:02:58 [notice] 1#1: start worker processes
+2022/01/05 13:02:58 [notice] 1#1: start worker process 8
+2022/01/05 13:02:58 [notice] 1#1: start worker process 9
+2022/01/05 13:02:58 [notice] 1#1: start worker process 10
+2022/01/05 13:02:58 [notice] 1#1: start worker process 11
+2022/01/05 13:02:58 [notice] 1#1: start worker process 12
+2022/01/05 13:02:58 [notice] 1#1: start worker process 13
+2022/01/05 13:11:26 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 13:11:26 [notice] 9#9: exiting
+2022/01/05 13:11:26 [notice] 10#10: exiting
+2022/01/05 13:11:26 [notice] 12#12: exiting
+2022/01/05 13:11:26 [notice] 13#13: exiting
+2022/01/05 13:11:26 [notice] 12#12: exit
+2022/01/05 13:11:26 [notice] 10#10: exit
+2022/01/05 13:11:26 [notice] 9#9: exit
+2022/01/05 13:11:26 [notice] 13#13: exit
+2022/01/05 13:11:26 [notice] 11#11: exiting
+2022/01/05 13:11:26 [notice] 11#11: exit
+2022/01/05 13:11:26 [notice] 8#8: exiting
+2022/01/05 13:11:26 [notice] 8#8: exit
+2022/01/05 13:11:27 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 13:11:27 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 13:11:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 13:11:27 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2022/01/05 13:11:27 [notice] 1#1: worker process 13 exited with code 0
+2022/01/05 13:11:27 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 13:11:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 13:11:27 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 13:11:27 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 13:11:27 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 13:11:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 13:11:27 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 13:11:27 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 13:11:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 13:11:27 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 13:11:27 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 13:11:27 [notice] 1#1: exit
+2022/01/05 13:39:46 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 13:39:46 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 13:39:46 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 13:39:46 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 13:39:46 [notice] 1#1: using the "epoll" event method
+2022/01/05 13:39:46 [notice] 1#1: nginx/1.20.2
+2022/01/05 13:39:46 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 13:39:46 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 13:39:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 13:39:46 [notice] 1#1: start worker processes
+2022/01/05 13:39:46 [notice] 1#1: start worker process 7
+2022/01/05 13:39:46 [notice] 1#1: start worker process 8
+2022/01/05 13:39:46 [notice] 1#1: start worker process 9
+2022/01/05 13:39:46 [notice] 1#1: start worker process 10
+2022/01/05 13:39:46 [notice] 1#1: start worker process 11
+2022/01/05 13:39:46 [notice] 1#1: start worker process 12
+2022/01/05 13:44:36 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 13:44:36 [notice] 11#11: exiting
+2022/01/05 13:44:36 [notice] 10#10: exiting
+2022/01/05 13:44:36 [notice] 10#10: exit
+2022/01/05 13:44:36 [notice] 11#11: exit
+2022/01/05 13:44:36 [notice] 8#8: exiting
+2022/01/05 13:44:36 [notice] 8#8: exit
+2022/01/05 13:44:36 [notice] 7#7: exiting
+2022/01/05 13:44:36 [notice] 7#7: exit
+2022/01/05 13:44:36 [notice] 9#9: exiting
+2022/01/05 13:44:36 [notice] 9#9: exit
+2022/01/05 13:44:36 [notice] 12#12: exiting
+2022/01/05 13:44:36 [notice] 12#12: exit
+2022/01/05 13:44:36 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 13:44:36 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 13:44:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 13:44:36 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 13:44:36 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 13:44:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 13:44:36 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 13:44:36 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 13:44:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 13:44:36 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 13:44:36 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 13:44:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 13:44:36 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 13:44:36 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 13:44:36 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 13:44:36 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 13:44:36 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 13:44:36 [notice] 1#1: exit
+2022/01/05 13:57:57 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 13:57:57 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 13:57:57 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 13:57:57 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 13:57:57 [notice] 1#1: using the "epoll" event method
+2022/01/05 13:57:57 [notice] 1#1: nginx/1.20.2
+2022/01/05 13:57:57 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 13:57:57 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 13:57:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 13:57:57 [notice] 1#1: start worker processes
+2022/01/05 13:57:57 [notice] 1#1: start worker process 8
+2022/01/05 13:57:57 [notice] 1#1: start worker process 9
+2022/01/05 13:57:57 [notice] 1#1: start worker process 10
+2022/01/05 13:57:57 [notice] 1#1: start worker process 11
+2022/01/05 13:57:57 [notice] 1#1: start worker process 12
+2022/01/05 13:57:57 [notice] 1#1: start worker process 13
+2022/01/05 14:08:51 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 14:08:51 [notice] 10#10: exiting
+2022/01/05 14:08:51 [notice] 12#12: exiting
+2022/01/05 14:08:51 [notice] 10#10: exit
+2022/01/05 14:08:51 [notice] 12#12: exit
+2022/01/05 14:08:51 [notice] 9#9: exiting
+2022/01/05 14:08:51 [notice] 9#9: exit
+2022/01/05 14:08:51 [notice] 8#8: exiting
+2022/01/05 14:08:51 [notice] 11#11: exiting
+2022/01/05 14:08:51 [notice] 11#11: exit
+2022/01/05 14:08:51 [notice] 13#13: exiting
+2022/01/05 14:08:51 [notice] 13#13: exit
+2022/01/05 14:08:51 [notice] 8#8: exit
+2022/01/05 14:08:51 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 14:08:51 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 14:08:51 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 14:08:51 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 14:08:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 14:08:51 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 14:08:51 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2022/01/05 14:08:51 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 14:08:51 [notice] 1#1: worker process 13 exited with code 0
+2022/01/05 14:08:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 14:08:51 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 14:08:51 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 14:08:51 [notice] 1#1: exit
+2022/01/05 14:08:52 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 14:08:52 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 14:08:52 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 14:08:52 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 14:08:52 [notice] 1#1: using the "epoll" event method
+2022/01/05 14:08:52 [notice] 1#1: nginx/1.20.2
+2022/01/05 14:08:52 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 14:08:52 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 14:08:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 14:08:52 [notice] 1#1: start worker processes
+2022/01/05 14:08:52 [notice] 1#1: start worker process 7
+2022/01/05 14:08:52 [notice] 1#1: start worker process 8
+2022/01/05 14:08:52 [notice] 1#1: start worker process 9
+2022/01/05 14:08:52 [notice] 1#1: start worker process 10
+2022/01/05 14:08:52 [notice] 1#1: start worker process 11
+2022/01/05 14:08:52 [notice] 1#1: start worker process 12
+2022/01/05 14:10:49 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 14:10:49 [notice] 8#8: exiting
+2022/01/05 14:10:49 [notice] 7#7: exiting
+2022/01/05 14:10:49 [notice] 7#7: exit
+2022/01/05 14:10:49 [notice] 8#8: exit
+2022/01/05 14:10:49 [notice] 9#9: exiting
+2022/01/05 14:10:49 [notice] 11#11: exiting
+2022/01/05 14:10:49 [notice] 12#12: exiting
+2022/01/05 14:10:49 [notice] 9#9: exit
+2022/01/05 14:10:49 [notice] 12#12: exit
+2022/01/05 14:10:49 [notice] 11#11: exit
+2022/01/05 14:10:49 [notice] 10#10: exiting
+2022/01/05 14:10:49 [notice] 10#10: exit
+2022/01/05 14:10:49 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 14:10:49 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 14:10:49 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 14:10:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 14:10:49 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 14:10:49 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 14:10:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 14:10:49 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 14:10:49 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 14:10:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 14:10:49 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 14:10:49 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 14:10:49 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 14:10:49 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 14:10:49 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 14:10:49 [notice] 1#1: exit
+2022/01/05 14:10:50 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 14:10:50 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:80, ignored
+2022/01/05 14:10:50 [warn] 1#1: conflicting server name "goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 14:10:50 [warn] 1#1: conflicting server name "*.goodwinehome.loc" on 0.0.0.0:443, ignored
+2022/01/05 14:10:50 [notice] 1#1: using the "epoll" event method
+2022/01/05 14:10:50 [notice] 1#1: nginx/1.20.2
+2022/01/05 14:10:50 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 14:10:50 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 14:10:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 14:10:50 [notice] 1#1: start worker processes
+2022/01/05 14:10:50 [notice] 1#1: start worker process 6
+2022/01/05 14:10:50 [notice] 1#1: start worker process 7
+2022/01/05 14:10:50 [notice] 1#1: start worker process 8
+2022/01/05 14:10:50 [notice] 1#1: start worker process 9
+2022/01/05 14:10:50 [notice] 1#1: start worker process 10
+2022/01/05 14:10:50 [notice] 1#1: start worker process 11
+2022/01/05 14:34:44 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 14:34:44 [notice] 6#6: exiting
+2022/01/05 14:34:44 [notice] 7#7: exiting
+2022/01/05 14:34:44 [notice] 10#10: exiting
+2022/01/05 14:34:44 [notice] 11#11: exiting
+2022/01/05 14:34:44 [notice] 9#9: exiting
+2022/01/05 14:34:44 [notice] 8#8: exiting
+2022/01/05 14:34:44 [notice] 7#7: exit
+2022/01/05 14:34:44 [notice] 11#11: exit
+2022/01/05 14:34:44 [notice] 9#9: exit
+2022/01/05 14:34:44 [notice] 8#8: exit
+2022/01/05 14:34:44 [notice] 10#10: exit
+2022/01/05 14:34:44 [notice] 6#6: exit
+2022/01/05 14:34:44 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 14:34:44 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 14:34:44 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 14:34:44 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 14:34:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 14:34:44 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 14:34:44 [notice] 1#1: worker process 6 exited with code 0
+2022/01/05 14:34:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 14:34:44 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 14:34:44 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 14:34:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 14:34:44 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 14:34:44 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 14:34:44 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 14:34:44 [notice] 1#1: exit
+2022/01/05 15:54:07 [notice] 1#1: using the "epoll" event method
+2022/01/05 15:54:07 [notice] 1#1: nginx/1.20.2
+2022/01/05 15:54:07 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 15:54:07 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 15:54:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 15:54:07 [notice] 1#1: start worker processes
+2022/01/05 15:54:07 [notice] 1#1: start worker process 7
+2022/01/05 15:54:07 [notice] 1#1: start worker process 8
+2022/01/05 15:54:07 [notice] 1#1: start worker process 9
+2022/01/05 15:54:07 [notice] 1#1: start worker process 10
+2022/01/05 15:54:07 [notice] 1#1: start worker process 11
+2022/01/05 15:54:07 [notice] 1#1: start worker process 12
+2022/01/05 17:02:29 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 17:02:29 [notice] 9#9: exiting
+2022/01/05 17:02:29 [notice] 7#7: exiting
+2022/01/05 17:02:29 [notice] 10#10: exiting
+2022/01/05 17:02:29 [notice] 12#12: exiting
+2022/01/05 17:02:29 [notice] 8#8: exiting
+2022/01/05 17:02:29 [notice] 11#11: exiting
+2022/01/05 17:02:29 [notice] 9#9: exit
+2022/01/05 17:02:29 [notice] 10#10: exit
+2022/01/05 17:02:29 [notice] 8#8: exit
+2022/01/05 17:02:29 [notice] 12#12: exit
+2022/01/05 17:02:29 [notice] 7#7: exit
+2022/01/05 17:02:29 [notice] 11#11: exit
+2022/01/05 17:02:29 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 17:02:29 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 17:02:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:02:29 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 17:02:29 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 17:02:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:02:29 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 17:02:29 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 17:02:29 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 17:02:29 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:02:29 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 17:02:29 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 17:02:29 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 17:02:29 [notice] 1#1: exit
+2022/01/05 17:02:30 [notice] 1#1: using the "epoll" event method
+2022/01/05 17:02:30 [notice] 1#1: nginx/1.20.2
+2022/01/05 17:02:30 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 17:02:30 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 17:02:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 17:02:30 [notice] 1#1: start worker processes
+2022/01/05 17:02:30 [notice] 1#1: start worker process 8
+2022/01/05 17:02:30 [notice] 1#1: start worker process 9
+2022/01/05 17:02:30 [notice] 1#1: start worker process 10
+2022/01/05 17:02:30 [notice] 1#1: start worker process 11
+2022/01/05 17:02:30 [notice] 1#1: start worker process 12
+2022/01/05 17:02:30 [notice] 1#1: start worker process 13
+2022/01/05 17:06:01 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 17:06:01 [notice] 8#8: exiting
+2022/01/05 17:06:01 [notice] 10#10: exiting
+2022/01/05 17:06:01 [notice] 12#12: exiting
+2022/01/05 17:06:01 [notice] 13#13: exiting
+2022/01/05 17:06:01 [notice] 9#9: exiting
+2022/01/05 17:06:01 [notice] 11#11: exiting
+2022/01/05 17:06:01 [notice] 9#9: exit
+2022/01/05 17:06:01 [notice] 13#13: exit
+2022/01/05 17:06:01 [notice] 12#12: exit
+2022/01/05 17:06:01 [notice] 10#10: exit
+2022/01/05 17:06:01 [notice] 11#11: exit
+2022/01/05 17:06:01 [notice] 8#8: exit
+2022/01/05 17:06:01 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 17:06:01 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 17:06:01 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 17:06:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:06:01 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 17:06:01 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 17:06:01 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 17:06:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:06:01 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 17:06:01 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 17:06:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:06:01 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2022/01/05 17:06:01 [notice] 1#1: worker process 13 exited with code 0
+2022/01/05 17:06:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:06:01 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 17:06:01 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 17:06:01 [notice] 1#1: exit
+2022/01/05 17:06:02 [notice] 1#1: using the "epoll" event method
+2022/01/05 17:06:02 [notice] 1#1: nginx/1.20.2
+2022/01/05 17:06:02 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 17:06:02 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 17:06:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 17:06:02 [notice] 1#1: start worker processes
+2022/01/05 17:06:02 [notice] 1#1: start worker process 7
+2022/01/05 17:06:02 [notice] 1#1: start worker process 8
+2022/01/05 17:06:02 [notice] 1#1: start worker process 9
+2022/01/05 17:06:02 [notice] 1#1: start worker process 10
+2022/01/05 17:06:02 [notice] 1#1: start worker process 11
+2022/01/05 17:06:02 [notice] 1#1: start worker process 12
+2022/01/05 17:13:40 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 17:13:40 [notice] 7#7: exiting
+2022/01/05 17:13:40 [notice] 8#8: exiting
+2022/01/05 17:13:40 [notice] 9#9: exiting
+2022/01/05 17:13:40 [notice] 10#10: exiting
+2022/01/05 17:13:40 [notice] 8#8: exit
+2022/01/05 17:13:40 [notice] 10#10: exit
+2022/01/05 17:13:40 [notice] 7#7: exit
+2022/01/05 17:13:40 [notice] 9#9: exit
+2022/01/05 17:13:40 [notice] 11#11: exiting
+2022/01/05 17:13:40 [notice] 12#12: exiting
+2022/01/05 17:13:40 [notice] 12#12: exit
+2022/01/05 17:13:40 [notice] 11#11: exit
+2022/01/05 17:13:40 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 17:13:40 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 17:13:40 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 17:13:40 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 17:13:40 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 17:13:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:13:40 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 17:13:40 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 17:13:40 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 17:13:40 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:13:40 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 17:13:40 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 17:13:40 [notice] 1#1: exit
+2022/01/05 17:13:40 [notice] 1#1: using the "epoll" event method
+2022/01/05 17:13:40 [notice] 1#1: nginx/1.20.2
+2022/01/05 17:13:40 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 17:13:40 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 17:13:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 17:13:40 [notice] 1#1: start worker processes
+2022/01/05 17:13:40 [notice] 1#1: start worker process 8
+2022/01/05 17:13:40 [notice] 1#1: start worker process 9
+2022/01/05 17:13:40 [notice] 1#1: start worker process 10
+2022/01/05 17:13:40 [notice] 1#1: start worker process 11
+2022/01/05 17:13:40 [notice] 1#1: start worker process 12
+2022/01/05 17:13:40 [notice] 1#1: start worker process 13
+2022/01/05 17:14:21 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 17:14:21 [notice] 8#8: exiting
+2022/01/05 17:14:21 [notice] 10#10: exiting
+2022/01/05 17:14:21 [notice] 9#9: exiting
+2022/01/05 17:14:21 [notice] 12#12: exiting
+2022/01/05 17:14:21 [notice] 11#11: exiting
+2022/01/05 17:14:21 [notice] 10#10: exit
+2022/01/05 17:14:21 [notice] 9#9: exit
+2022/01/05 17:14:21 [notice] 12#12: exit
+2022/01/05 17:14:21 [notice] 8#8: exit
+2022/01/05 17:14:21 [notice] 11#11: exit
+2022/01/05 17:14:21 [notice] 13#13: exiting
+2022/01/05 17:14:21 [notice] 13#13: exit
+2022/01/05 17:14:21 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 17:14:21 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 17:14:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:14:21 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 17:14:21 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 17:14:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:14:21 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 17:14:21 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 17:14:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:14:21 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2022/01/05 17:14:21 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 17:14:21 [notice] 1#1: worker process 13 exited with code 0
+2022/01/05 17:14:21 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:14:21 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 17:14:21 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 17:14:21 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 17:14:21 [notice] 1#1: exit
+2022/01/05 17:14:22 [notice] 1#1: using the "epoll" event method
+2022/01/05 17:14:22 [notice] 1#1: nginx/1.20.2
+2022/01/05 17:14:22 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 17:14:22 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 17:14:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 17:14:22 [notice] 1#1: start worker processes
+2022/01/05 17:14:22 [notice] 1#1: start worker process 7
+2022/01/05 17:14:22 [notice] 1#1: start worker process 8
+2022/01/05 17:14:22 [notice] 1#1: start worker process 9
+2022/01/05 17:14:22 [notice] 1#1: start worker process 10
+2022/01/05 17:14:22 [notice] 1#1: start worker process 11
+2022/01/05 17:14:22 [notice] 1#1: start worker process 12
+2022/01/05 17:23:23 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 17:23:23 [notice] 7#7: exiting
+2022/01/05 17:23:23 [notice] 9#9: exiting
+2022/01/05 17:23:23 [notice] 11#11: exiting
+2022/01/05 17:23:23 [notice] 8#8: exiting
+2022/01/05 17:23:23 [notice] 10#10: exiting
+2022/01/05 17:23:23 [notice] 12#12: exiting
+2022/01/05 17:23:23 [notice] 8#8: exit
+2022/01/05 17:23:23 [notice] 9#9: exit
+2022/01/05 17:23:23 [notice] 10#10: exit
+2022/01/05 17:23:23 [notice] 11#11: exit
+2022/01/05 17:23:23 [notice] 12#12: exit
+2022/01/05 17:23:23 [notice] 7#7: exit
+2022/01/05 17:23:23 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 17:23:23 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 17:23:23 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 17:23:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:23:23 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 17:23:23 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 17:23:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:23:23 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 17:23:23 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 17:23:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:23:23 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 17:23:23 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 17:23:23 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 17:23:23 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:23:23 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 17:23:23 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 17:23:23 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 17:23:23 [notice] 1#1: exit
+2022/01/05 17:23:24 [notice] 1#1: using the "epoll" event method
+2022/01/05 17:23:24 [notice] 1#1: nginx/1.20.2
+2022/01/05 17:23:24 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 17:23:24 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 17:23:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 17:23:24 [notice] 1#1: start worker processes
+2022/01/05 17:23:24 [notice] 1#1: start worker process 7
+2022/01/05 17:23:24 [notice] 1#1: start worker process 8
+2022/01/05 17:23:24 [notice] 1#1: start worker process 9
+2022/01/05 17:23:24 [notice] 1#1: start worker process 10
+2022/01/05 17:23:24 [notice] 1#1: start worker process 11
+2022/01/05 17:23:24 [notice] 1#1: start worker process 12
+2022/01/05 17:38:42 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 17:38:42 [notice] 7#7: exiting
+2022/01/05 17:38:42 [notice] 9#9: exiting
+2022/01/05 17:38:42 [notice] 8#8: exiting
+2022/01/05 17:38:42 [notice] 10#10: exiting
+2022/01/05 17:38:42 [notice] 12#12: exiting
+2022/01/05 17:38:42 [notice] 11#11: exiting
+2022/01/05 17:38:42 [notice] 9#9: exit
+2022/01/05 17:38:42 [notice] 8#8: exit
+2022/01/05 17:38:42 [notice] 10#10: exit
+2022/01/05 17:38:42 [notice] 7#7: exit
+2022/01/05 17:38:42 [notice] 12#12: exit
+2022/01/05 17:38:42 [notice] 11#11: exit
+2022/01/05 17:38:42 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 17:38:42 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 17:38:42 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 17:38:42 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 17:38:42 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 17:38:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:38:42 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 17:38:42 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 17:38:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:38:42 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 17:38:42 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 17:38:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:38:42 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 17:38:42 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 17:38:42 [notice] 1#1: exit
+2022/01/05 17:38:43 [notice] 1#1: using the "epoll" event method
+2022/01/05 17:38:43 [notice] 1#1: nginx/1.20.2
+2022/01/05 17:38:43 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 17:38:43 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 17:38:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 17:38:43 [notice] 1#1: start worker processes
+2022/01/05 17:38:43 [notice] 1#1: start worker process 8
+2022/01/05 17:38:43 [notice] 1#1: start worker process 9
+2022/01/05 17:38:43 [notice] 1#1: start worker process 10
+2022/01/05 17:38:43 [notice] 1#1: start worker process 11
+2022/01/05 17:38:43 [notice] 1#1: start worker process 12
+2022/01/05 17:38:43 [notice] 1#1: start worker process 13
+2022/01/05 17:45:51 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 17:45:51 [notice] 11#11: exiting
+2022/01/05 17:45:51 [notice] 12#12: exiting
+2022/01/05 17:45:51 [notice] 8#8: exiting
+2022/01/05 17:45:51 [notice] 9#9: exiting
+2022/01/05 17:45:51 [notice] 10#10: exiting
+2022/01/05 17:45:51 [notice] 13#13: exiting
+2022/01/05 17:45:51 [notice] 8#8: exit
+2022/01/05 17:45:51 [notice] 10#10: exit
+2022/01/05 17:45:51 [notice] 11#11: exit
+2022/01/05 17:45:51 [notice] 12#12: exit
+2022/01/05 17:45:51 [notice] 13#13: exit
+2022/01/05 17:45:51 [notice] 9#9: exit
+2022/01/05 17:45:51 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 17:45:51 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 17:45:51 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 17:45:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:45:51 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 17:45:51 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 17:45:51 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 17:45:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:45:51 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 17:45:51 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 17:45:51 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 17:45:51 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:45:51 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2022/01/05 17:45:51 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 17:45:51 [notice] 1#1: worker process 13 exited with code 0
+2022/01/05 17:45:51 [notice] 1#1: exit
+2022/01/05 17:45:52 [notice] 1#1: using the "epoll" event method
+2022/01/05 17:45:52 [notice] 1#1: nginx/1.20.2
+2022/01/05 17:45:52 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 17:45:52 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 17:45:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 17:45:52 [notice] 1#1: start worker processes
+2022/01/05 17:45:52 [notice] 1#1: start worker process 7
+2022/01/05 17:45:52 [notice] 1#1: start worker process 8
+2022/01/05 17:45:52 [notice] 1#1: start worker process 9
+2022/01/05 17:45:52 [notice] 1#1: start worker process 10
+2022/01/05 17:45:52 [notice] 1#1: start worker process 11
+2022/01/05 17:45:52 [notice] 1#1: start worker process 12
+2022/01/05 17:50:30 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 17:50:30 [notice] 8#8: exiting
+2022/01/05 17:50:30 [notice] 9#9: exiting
+2022/01/05 17:50:30 [notice] 7#7: exiting
+2022/01/05 17:50:30 [notice] 10#10: exiting
+2022/01/05 17:50:30 [notice] 11#11: exiting
+2022/01/05 17:50:30 [notice] 12#12: exiting
+2022/01/05 17:50:30 [notice] 12#12: exit
+2022/01/05 17:50:30 [notice] 7#7: exit
+2022/01/05 17:50:30 [notice] 8#8: exit
+2022/01/05 17:50:30 [notice] 9#9: exit
+2022/01/05 17:50:30 [notice] 10#10: exit
+2022/01/05 17:50:30 [notice] 11#11: exit
+2022/01/05 17:50:30 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 17:50:30 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 17:50:30 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 17:50:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:50:30 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 17:50:30 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 17:50:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:50:30 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 17:50:30 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 17:50:30 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 17:50:30 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 17:50:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 17:50:30 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 17:50:30 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 17:50:30 [notice] 1#1: exit
+2022/01/05 17:50:31 [notice] 1#1: using the "epoll" event method
+2022/01/05 17:50:31 [notice] 1#1: nginx/1.20.2
+2022/01/05 17:50:31 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 17:50:31 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 17:50:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 17:50:31 [notice] 1#1: start worker processes
+2022/01/05 17:50:31 [notice] 1#1: start worker process 7
+2022/01/05 17:50:31 [notice] 1#1: start worker process 8
+2022/01/05 17:50:31 [notice] 1#1: start worker process 9
+2022/01/05 17:50:31 [notice] 1#1: start worker process 10
+2022/01/05 17:50:31 [notice] 1#1: start worker process 11
+2022/01/05 17:50:31 [notice] 1#1: start worker process 12
+2022/01/05 18:05:48 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 18:05:48 [notice] 8#8: exiting
+2022/01/05 18:05:48 [notice] 7#7: exiting
+2022/01/05 18:05:48 [notice] 9#9: exiting
+2022/01/05 18:05:48 [notice] 10#10: exiting
+2022/01/05 18:05:48 [notice] 11#11: exiting
+2022/01/05 18:05:48 [notice] 12#12: exiting
+2022/01/05 18:05:48 [notice] 8#8: exit
+2022/01/05 18:05:48 [notice] 11#11: exit
+2022/01/05 18:05:48 [notice] 12#12: exit
+2022/01/05 18:05:48 [notice] 7#7: exit
+2022/01/05 18:05:48 [notice] 10#10: exit
+2022/01/05 18:05:48 [notice] 9#9: exit
+2022/01/05 18:05:48 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 18:05:48 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 18:05:48 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 18:05:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:05:48 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 18:05:48 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 18:05:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:05:48 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 18:05:48 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 18:05:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:05:48 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 18:05:48 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 18:05:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:05:48 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 18:05:48 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 18:05:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:05:48 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 18:05:48 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 18:05:48 [notice] 1#1: exit
+2022/01/05 18:24:04 [notice] 1#1: using the "epoll" event method
+2022/01/05 18:24:04 [notice] 1#1: nginx/1.20.2
+2022/01/05 18:24:04 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 18:24:04 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 18:24:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 18:24:04 [notice] 1#1: start worker processes
+2022/01/05 18:24:04 [notice] 1#1: start worker process 7
+2022/01/05 18:24:04 [notice] 1#1: start worker process 8
+2022/01/05 18:24:04 [notice] 1#1: start worker process 9
+2022/01/05 18:24:04 [notice] 1#1: start worker process 10
+2022/01/05 18:24:04 [notice] 1#1: start worker process 11
+2022/01/05 18:24:04 [notice] 1#1: start worker process 12
+2022/01/05 18:25:30 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 18:25:30 [notice] 7#7: exiting
+2022/01/05 18:25:30 [notice] 11#11: exiting
+2022/01/05 18:25:30 [notice] 8#8: exiting
+2022/01/05 18:25:30 [notice] 9#9: exiting
+2022/01/05 18:25:30 [notice] 10#10: exiting
+2022/01/05 18:25:30 [notice] 12#12: exiting
+2022/01/05 18:25:30 [notice] 7#7: exit
+2022/01/05 18:25:30 [notice] 11#11: exit
+2022/01/05 18:25:30 [notice] 9#9: exit
+2022/01/05 18:25:30 [notice] 8#8: exit
+2022/01/05 18:25:30 [notice] 12#12: exit
+2022/01/05 18:25:30 [notice] 10#10: exit
+2022/01/05 18:25:30 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 18:25:30 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 18:25:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:25:30 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 18:25:30 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 18:25:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:25:30 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 18:25:30 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 18:25:30 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 18:25:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:25:30 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 18:25:30 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 18:25:30 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:25:30 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 18:25:30 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 18:25:30 [notice] 1#1: exit
+2022/01/05 18:34:00 [notice] 1#1: using the "epoll" event method
+2022/01/05 18:34:00 [notice] 1#1: nginx/1.20.2
+2022/01/05 18:34:00 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 18:34:00 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 18:34:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 18:34:00 [notice] 1#1: start worker processes
+2022/01/05 18:34:00 [notice] 1#1: start worker process 6
+2022/01/05 18:34:00 [notice] 1#1: start worker process 7
+2022/01/05 18:34:00 [notice] 1#1: start worker process 8
+2022/01/05 18:34:00 [notice] 1#1: start worker process 9
+2022/01/05 18:34:00 [notice] 1#1: start worker process 10
+2022/01/05 18:34:00 [notice] 1#1: start worker process 11
+2022/01/05 18:36:10 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 18:36:10 [notice] 6#6: exiting
+2022/01/05 18:36:10 [notice] 6#6: exit
+2022/01/05 18:36:10 [notice] 9#9: exiting
+2022/01/05 18:36:10 [notice] 7#7: exiting
+2022/01/05 18:36:10 [notice] 10#10: exiting
+2022/01/05 18:36:10 [notice] 11#11: exiting
+2022/01/05 18:36:10 [notice] 9#9: exit
+2022/01/05 18:36:10 [notice] 7#7: exit
+2022/01/05 18:36:10 [notice] 10#10: exit
+2022/01/05 18:36:10 [notice] 11#11: exit
+2022/01/05 18:36:10 [notice] 8#8: exiting
+2022/01/05 18:36:10 [notice] 8#8: exit
+2022/01/05 18:36:11 [notice] 1#1: signal 17 (SIGCHLD) received from 6
+2022/01/05 18:36:11 [notice] 1#1: worker process 6 exited with code 0
+2022/01/05 18:36:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:36:11 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 18:36:11 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 18:36:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:36:11 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 18:36:11 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 18:36:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:36:11 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 18:36:11 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 18:36:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:36:11 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 18:36:11 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 18:36:11 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:36:11 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 18:36:11 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 18:36:11 [notice] 1#1: exit
+2022/01/05 18:36:12 [notice] 1#1: using the "epoll" event method
+2022/01/05 18:36:12 [notice] 1#1: nginx/1.20.2
+2022/01/05 18:36:12 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 18:36:12 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 18:36:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 18:36:12 [notice] 1#1: start worker processes
+2022/01/05 18:36:12 [notice] 1#1: start worker process 7
+2022/01/05 18:36:12 [notice] 1#1: start worker process 8
+2022/01/05 18:36:12 [notice] 1#1: start worker process 9
+2022/01/05 18:36:12 [notice] 1#1: start worker process 10
+2022/01/05 18:36:12 [notice] 1#1: start worker process 11
+2022/01/05 18:36:12 [notice] 1#1: start worker process 12
+2022/01/05 18:38:17 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 18:38:17 [notice] 7#7: exiting
+2022/01/05 18:38:17 [notice] 8#8: exiting
+2022/01/05 18:38:17 [notice] 10#10: exiting
+2022/01/05 18:38:17 [notice] 7#7: exit
+2022/01/05 18:38:17 [notice] 10#10: exit
+2022/01/05 18:38:17 [notice] 8#8: exit
+2022/01/05 18:38:17 [notice] 9#9: exiting
+2022/01/05 18:38:17 [notice] 12#12: exiting
+2022/01/05 18:38:17 [notice] 9#9: exit
+2022/01/05 18:38:17 [notice] 12#12: exit
+2022/01/05 18:38:17 [notice] 11#11: exiting
+2022/01/05 18:38:17 [notice] 11#11: exit
+2022/01/05 18:38:17 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 18:38:17 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 18:38:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:38:17 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 18:38:17 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 18:38:17 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 18:38:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 18:38:17 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 18:38:17 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 18:38:17 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 18:38:17 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 18:38:17 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 18:38:17 [notice] 1#1: exit
+2022/01/05 18:58:48 [notice] 1#1: using the "epoll" event method
+2022/01/05 18:58:48 [notice] 1#1: nginx/1.20.2
+2022/01/05 18:58:48 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 18:58:48 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 18:58:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 18:58:48 [notice] 1#1: start worker processes
+2022/01/05 18:58:48 [notice] 1#1: start worker process 8
+2022/01/05 18:58:48 [notice] 1#1: start worker process 9
+2022/01/05 18:58:48 [notice] 1#1: start worker process 10
+2022/01/05 18:58:48 [notice] 1#1: start worker process 11
+2022/01/05 18:58:48 [notice] 1#1: start worker process 12
+2022/01/05 18:58:48 [notice] 1#1: start worker process 13
+2022/01/05 19:07:02 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 19:07:02 [notice] 9#9: exiting
+2022/01/05 19:07:02 [notice] 11#11: exiting
+2022/01/05 19:07:02 [notice] 10#10: exiting
+2022/01/05 19:07:02 [notice] 8#8: exiting
+2022/01/05 19:07:02 [notice] 12#12: exiting
+2022/01/05 19:07:02 [notice] 13#13: exiting
+2022/01/05 19:07:02 [notice] 11#11: exit
+2022/01/05 19:07:02 [notice] 8#8: exit
+2022/01/05 19:07:02 [notice] 10#10: exit
+2022/01/05 19:07:02 [notice] 9#9: exit
+2022/01/05 19:07:02 [notice] 12#12: exit
+2022/01/05 19:07:02 [notice] 13#13: exit
+2022/01/05 19:07:02 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 19:07:02 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 19:07:02 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 19:07:02 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 19:07:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:07:02 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 19:07:02 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 19:07:02 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 19:07:02 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 19:07:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:07:02 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 19:07:02 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2022/01/05 19:07:02 [notice] 1#1: worker process 13 exited with code 0
+2022/01/05 19:07:02 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:07:02 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 19:07:02 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 19:07:02 [notice] 1#1: exit
+2022/01/05 19:15:23 [notice] 1#1: using the "epoll" event method
+2022/01/05 19:15:23 [notice] 1#1: nginx/1.20.2
+2022/01/05 19:15:23 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 19:15:23 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 19:15:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 19:15:23 [notice] 1#1: start worker processes
+2022/01/05 19:15:23 [notice] 1#1: start worker process 7
+2022/01/05 19:15:23 [notice] 1#1: start worker process 8
+2022/01/05 19:15:23 [notice] 1#1: start worker process 9
+2022/01/05 19:15:23 [notice] 1#1: start worker process 10
+2022/01/05 19:15:23 [notice] 1#1: start worker process 11
+2022/01/05 19:15:23 [notice] 1#1: start worker process 12
+2022/01/05 19:18:37 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 19:18:37 [notice] 9#9: exiting
+2022/01/05 19:18:37 [notice] 11#11: exiting
+2022/01/05 19:18:37 [notice] 8#8: exiting
+2022/01/05 19:18:37 [notice] 7#7: exiting
+2022/01/05 19:18:37 [notice] 10#10: exiting
+2022/01/05 19:18:37 [notice] 12#12: exiting
+2022/01/05 19:18:37 [notice] 11#11: exit
+2022/01/05 19:18:37 [notice] 9#9: exit
+2022/01/05 19:18:37 [notice] 8#8: exit
+2022/01/05 19:18:37 [notice] 12#12: exit
+2022/01/05 19:18:37 [notice] 7#7: exit
+2022/01/05 19:18:37 [notice] 10#10: exit
+2022/01/05 19:18:37 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 19:18:37 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 19:18:37 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 19:18:37 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:18:37 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 19:18:37 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 19:18:37 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 19:18:37 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 19:18:37 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 19:18:37 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 19:18:37 [notice] 1#1: exit
+2022/01/05 19:18:38 [notice] 1#1: using the "epoll" event method
+2022/01/05 19:18:38 [notice] 1#1: nginx/1.20.2
+2022/01/05 19:18:38 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 19:18:38 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 19:18:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 19:18:38 [notice] 1#1: start worker processes
+2022/01/05 19:18:38 [notice] 1#1: start worker process 8
+2022/01/05 19:18:38 [notice] 1#1: start worker process 9
+2022/01/05 19:18:38 [notice] 1#1: start worker process 10
+2022/01/05 19:18:38 [notice] 1#1: start worker process 11
+2022/01/05 19:18:38 [notice] 1#1: start worker process 12
+2022/01/05 19:18:38 [notice] 1#1: start worker process 13
+2022/01/05 19:22:17 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 19:22:17 [notice] 11#11: exiting
+2022/01/05 19:22:17 [notice] 10#10: exiting
+2022/01/05 19:22:17 [notice] 9#9: exiting
+2022/01/05 19:22:17 [notice] 8#8: exiting
+2022/01/05 19:22:17 [notice] 12#12: exiting
+2022/01/05 19:22:17 [notice] 13#13: exiting
+2022/01/05 19:22:17 [notice] 10#10: exit
+2022/01/05 19:22:17 [notice] 13#13: exit
+2022/01/05 19:22:17 [notice] 9#9: exit
+2022/01/05 19:22:17 [notice] 12#12: exit
+2022/01/05 19:22:17 [notice] 11#11: exit
+2022/01/05 19:22:17 [notice] 8#8: exit
+2022/01/05 19:22:17 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 19:22:17 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 19:22:17 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 19:22:17 [notice] 1#1: worker process 13 exited with code 0
+2022/01/05 19:22:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:22:17 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2022/01/05 19:22:17 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 19:22:17 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 19:22:17 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:22:17 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 19:22:17 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 19:22:17 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 19:22:17 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 19:22:17 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 19:22:17 [notice] 1#1: exit
+2022/01/05 19:22:18 [notice] 1#1: using the "epoll" event method
+2022/01/05 19:22:18 [notice] 1#1: nginx/1.20.2
+2022/01/05 19:22:18 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 19:22:18 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 19:22:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 19:22:18 [notice] 1#1: start worker processes
+2022/01/05 19:22:18 [notice] 1#1: start worker process 7
+2022/01/05 19:22:18 [notice] 1#1: start worker process 8
+2022/01/05 19:22:18 [notice] 1#1: start worker process 9
+2022/01/05 19:22:18 [notice] 1#1: start worker process 10
+2022/01/05 19:22:18 [notice] 1#1: start worker process 11
+2022/01/05 19:22:18 [notice] 1#1: start worker process 12
+2022/01/05 19:23:34 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 19:23:34 [notice] 8#8: exiting
+2022/01/05 19:23:34 [notice] 11#11: exiting
+2022/01/05 19:23:34 [notice] 9#9: exiting
+2022/01/05 19:23:34 [notice] 10#10: exiting
+2022/01/05 19:23:34 [notice] 7#7: exiting
+2022/01/05 19:23:34 [notice] 12#12: exiting
+2022/01/05 19:23:34 [notice] 8#8: exit
+2022/01/05 19:23:34 [notice] 9#9: exit
+2022/01/05 19:23:34 [notice] 10#10: exit
+2022/01/05 19:23:34 [notice] 7#7: exit
+2022/01/05 19:23:34 [notice] 12#12: exit
+2022/01/05 19:23:34 [notice] 11#11: exit
+2022/01/05 19:23:34 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 19:23:34 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 19:23:34 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 19:23:34 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 19:23:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:23:34 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 19:23:34 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 19:23:34 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 19:23:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:23:34 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 19:23:34 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 19:23:34 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 19:23:34 [notice] 1#1: exit
+2022/01/05 19:23:51 [notice] 1#1: using the "epoll" event method
+2022/01/05 19:23:51 [notice] 1#1: nginx/1.20.2
+2022/01/05 19:23:51 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 19:23:51 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 19:23:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 19:23:51 [notice] 1#1: start worker processes
+2022/01/05 19:23:51 [notice] 1#1: start worker process 8
+2022/01/05 19:23:51 [notice] 1#1: start worker process 9
+2022/01/05 19:23:51 [notice] 1#1: start worker process 10
+2022/01/05 19:23:51 [notice] 1#1: start worker process 11
+2022/01/05 19:23:51 [notice] 1#1: start worker process 12
+2022/01/05 19:23:51 [notice] 1#1: start worker process 13
+2022/01/05 19:28:57 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 19:28:57 [notice] 8#8: exiting
+2022/01/05 19:28:57 [notice] 12#12: exiting
+2022/01/05 19:28:57 [notice] 10#10: exiting
+2022/01/05 19:28:57 [notice] 9#9: exiting
+2022/01/05 19:28:57 [notice] 13#13: exiting
+2022/01/05 19:28:57 [notice] 11#11: exiting
+2022/01/05 19:28:57 [notice] 8#8: exit
+2022/01/05 19:28:57 [notice] 12#12: exit
+2022/01/05 19:28:57 [notice] 10#10: exit
+2022/01/05 19:28:57 [notice] 9#9: exit
+2022/01/05 19:28:57 [notice] 13#13: exit
+2022/01/05 19:28:57 [notice] 11#11: exit
+2022/01/05 19:28:57 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 19:28:57 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 19:28:57 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 19:28:57 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 19:28:57 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 19:28:57 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 19:28:57 [notice] 1#1: worker process 13 exited with code 0
+2022/01/05 19:28:57 [notice] 1#1: signal 17 (SIGCHLD) received from 13
+2022/01/05 19:28:57 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:28:57 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:28:57 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 19:28:57 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 19:28:57 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 19:28:57 [notice] 1#1: exit
+2022/01/05 19:28:58 [notice] 1#1: using the "epoll" event method
+2022/01/05 19:28:58 [notice] 1#1: nginx/1.20.2
+2022/01/05 19:28:58 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 19:28:58 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 19:28:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 19:28:58 [notice] 1#1: start worker processes
+2022/01/05 19:28:58 [notice] 1#1: start worker process 7
+2022/01/05 19:28:58 [notice] 1#1: start worker process 8
+2022/01/05 19:28:58 [notice] 1#1: start worker process 9
+2022/01/05 19:28:58 [notice] 1#1: start worker process 10
+2022/01/05 19:28:58 [notice] 1#1: start worker process 11
+2022/01/05 19:28:58 [notice] 1#1: start worker process 12
+2022/01/05 19:32:20 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 19:32:20 [notice] 7#7: exiting
+2022/01/05 19:32:20 [notice] 8#8: exiting
+2022/01/05 19:32:20 [notice] 11#11: exiting
+2022/01/05 19:32:20 [notice] 9#9: exiting
+2022/01/05 19:32:20 [notice] 10#10: exiting
+2022/01/05 19:32:20 [notice] 12#12: exiting
+2022/01/05 19:32:20 [notice] 7#7: exit
+2022/01/05 19:32:20 [notice] 8#8: exit
+2022/01/05 19:32:20 [notice] 9#9: exit
+2022/01/05 19:32:20 [notice] 12#12: exit
+2022/01/05 19:32:20 [notice] 10#10: exit
+2022/01/05 19:32:20 [notice] 11#11: exit
+2022/01/05 19:32:20 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 19:32:20 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 19:32:20 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 19:32:20 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:32:20 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 19:32:20 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 19:32:20 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 19:32:20 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 19:32:20 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 19:32:20 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:32:20 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 19:32:20 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 19:32:20 [notice] 1#1: exit
+2022/01/05 19:32:59 [notice] 1#1: using the "epoll" event method
+2022/01/05 19:32:59 [notice] 1#1: nginx/1.20.2
+2022/01/05 19:32:59 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 19:32:59 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 19:32:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 19:32:59 [notice] 1#1: start worker processes
+2022/01/05 19:32:59 [notice] 1#1: start worker process 7
+2022/01/05 19:32:59 [notice] 1#1: start worker process 8
+2022/01/05 19:32:59 [notice] 1#1: start worker process 9
+2022/01/05 19:32:59 [notice] 1#1: start worker process 10
+2022/01/05 19:32:59 [notice] 1#1: start worker process 11
+2022/01/05 19:32:59 [notice] 1#1: start worker process 12
+2022/01/05 19:44:01 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 19:44:01 [notice] 9#9: exiting
+2022/01/05 19:44:01 [notice] 8#8: exiting
+2022/01/05 19:44:01 [notice] 10#10: exiting
+2022/01/05 19:44:01 [notice] 11#11: exiting
+2022/01/05 19:44:01 [notice] 7#7: exiting
+2022/01/05 19:44:01 [notice] 12#12: exiting
+2022/01/05 19:44:01 [notice] 9#9: exit
+2022/01/05 19:44:01 [notice] 11#11: exit
+2022/01/05 19:44:01 [notice] 10#10: exit
+2022/01/05 19:44:01 [notice] 8#8: exit
+2022/01/05 19:44:01 [notice] 12#12: exit
+2022/01/05 19:44:01 [notice] 7#7: exit
+2022/01/05 19:44:01 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 19:44:01 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 19:44:01 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 19:44:01 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 19:44:01 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:44:01 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 19:44:01 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 19:44:01 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 19:44:01 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 19:44:01 [notice] 1#1: exit
+2022/01/05 19:44:17 [notice] 1#1: using the "epoll" event method
+2022/01/05 19:44:17 [notice] 1#1: nginx/1.20.2
+2022/01/05 19:44:17 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 19:44:17 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 19:44:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 19:44:17 [notice] 1#1: start worker processes
+2022/01/05 19:44:17 [notice] 1#1: start worker process 7
+2022/01/05 19:44:17 [notice] 1#1: start worker process 8
+2022/01/05 19:44:17 [notice] 1#1: start worker process 9
+2022/01/05 19:44:17 [notice] 1#1: start worker process 10
+2022/01/05 19:44:17 [notice] 1#1: start worker process 11
+2022/01/05 19:44:17 [notice] 1#1: start worker process 12
+2022/01/05 19:44:38 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 19:44:38 [notice] 11#11: exiting
+2022/01/05 19:44:38 [notice] 11#11: exit
+2022/01/05 19:44:38 [notice] 8#8: exiting
+2022/01/05 19:44:38 [notice] 10#10: exiting
+2022/01/05 19:44:38 [notice] 10#10: exit
+2022/01/05 19:44:38 [notice] 8#8: exit
+2022/01/05 19:44:38 [notice] 12#12: exiting
+2022/01/05 19:44:38 [notice] 7#7: exiting
+2022/01/05 19:44:38 [notice] 7#7: exit
+2022/01/05 19:44:38 [notice] 12#12: exit
+2022/01/05 19:44:38 [notice] 9#9: exiting
+2022/01/05 19:44:38 [notice] 9#9: exit
+2022/01/05 19:44:38 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 19:44:38 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 19:44:38 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 19:44:38 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 19:44:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:44:38 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 19:44:38 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 19:44:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:44:38 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 19:44:38 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 19:44:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:44:38 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 19:44:38 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 19:44:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:44:38 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 19:44:38 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 19:44:38 [notice] 1#1: exit
+2022/01/05 19:44:50 [notice] 1#1: using the "epoll" event method
+2022/01/05 19:44:50 [notice] 1#1: nginx/1.20.2
+2022/01/05 19:44:50 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 19:44:50 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 19:44:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 19:44:50 [notice] 1#1: start worker processes
+2022/01/05 19:44:50 [notice] 1#1: start worker process 7
+2022/01/05 19:44:50 [notice] 1#1: start worker process 8
+2022/01/05 19:44:50 [notice] 1#1: start worker process 9
+2022/01/05 19:44:50 [notice] 1#1: start worker process 10
+2022/01/05 19:44:50 [notice] 1#1: start worker process 11
+2022/01/05 19:44:50 [notice] 1#1: start worker process 12
+2022/01/05 19:47:42 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 19:47:42 [notice] 8#8: exiting
+2022/01/05 19:47:42 [notice] 7#7: exiting
+2022/01/05 19:47:42 [notice] 12#12: exiting
+2022/01/05 19:47:42 [notice] 10#10: exiting
+2022/01/05 19:47:42 [notice] 8#8: exit
+2022/01/05 19:47:42 [notice] 7#7: exit
+2022/01/05 19:47:42 [notice] 10#10: exit
+2022/01/05 19:47:42 [notice] 12#12: exit
+2022/01/05 19:47:42 [notice] 9#9: exiting
+2022/01/05 19:47:42 [notice] 11#11: exiting
+2022/01/05 19:47:42 [notice] 11#11: exit
+2022/01/05 19:47:42 [notice] 9#9: exit
+2022/01/05 19:47:42 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 19:47:42 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 19:47:42 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 19:47:42 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 19:47:42 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 19:47:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:47:42 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 19:47:42 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 19:47:42 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 19:47:42 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:47:42 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 19:47:42 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 19:47:42 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 19:47:42 [notice] 1#1: exit
+2022/01/05 19:47:55 [notice] 1#1: using the "epoll" event method
+2022/01/05 19:47:55 [notice] 1#1: nginx/1.20.2
+2022/01/05 19:47:55 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 19:47:55 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 19:47:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 19:47:55 [notice] 1#1: start worker processes
+2022/01/05 19:47:55 [notice] 1#1: start worker process 7
+2022/01/05 19:47:55 [notice] 1#1: start worker process 8
+2022/01/05 19:47:55 [notice] 1#1: start worker process 9
+2022/01/05 19:47:55 [notice] 1#1: start worker process 10
+2022/01/05 19:47:55 [notice] 1#1: start worker process 11
+2022/01/05 19:47:55 [notice] 1#1: start worker process 12
+2022/01/05 19:51:57 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 19:51:57 [notice] 10#10: exiting
+2022/01/05 19:51:57 [notice] 9#9: exiting
+2022/01/05 19:51:57 [notice] 7#7: exiting
+2022/01/05 19:51:57 [notice] 11#11: exiting
+2022/01/05 19:51:57 [notice] 8#8: exiting
+2022/01/05 19:51:57 [notice] 10#10: exit
+2022/01/05 19:51:57 [notice] 7#7: exit
+2022/01/05 19:51:57 [notice] 9#9: exit
+2022/01/05 19:51:57 [notice] 11#11: exit
+2022/01/05 19:51:57 [notice] 8#8: exit
+2022/01/05 19:51:57 [notice] 12#12: exiting
+2022/01/05 19:51:57 [notice] 12#12: exit
+2022/01/05 19:51:57 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 19:51:57 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 19:51:57 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 19:51:57 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 19:51:57 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 19:51:57 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 19:51:57 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 19:51:57 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 19:51:57 [notice] 1#1: signal 17 (SIGCHLD) received from 9
+2022/01/05 19:51:57 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 19:51:57 [notice] 1#1: exit
+2022/01/05 17:51:58 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/mysite_com.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/mysite_com.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2022/01/05 17:54:40 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/mysite_com.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/mysite_com.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2022/01/05 17:56:09 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/mysite_com.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/mysite_com.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2022/01/05 20:24:56 [notice] 1#1: using the "epoll" event method
+2022/01/05 20:24:56 [notice] 1#1: nginx/1.20.2
+2022/01/05 20:24:56 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 20:24:56 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 20:24:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 20:24:56 [notice] 1#1: start worker processes
+2022/01/05 20:24:56 [notice] 1#1: start worker process 7
+2022/01/05 20:24:56 [notice] 1#1: start worker process 8
+2022/01/05 20:24:56 [notice] 1#1: start worker process 9
+2022/01/05 20:24:56 [notice] 1#1: start worker process 10
+2022/01/05 20:24:56 [notice] 1#1: start worker process 11
+2022/01/05 20:24:56 [notice] 1#1: start worker process 12
+2022/01/05 20:29:50 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 20:29:50 [notice] 7#7: exiting
+2022/01/05 20:29:50 [notice] 8#8: exiting
+2022/01/05 20:29:50 [notice] 9#9: exiting
+2022/01/05 20:29:50 [notice] 12#12: exiting
+2022/01/05 20:29:50 [notice] 10#10: exiting
+2022/01/05 20:29:50 [notice] 11#11: exiting
+2022/01/05 20:29:50 [notice] 7#7: exit
+2022/01/05 20:29:50 [notice] 8#8: exit
+2022/01/05 20:29:50 [notice] 11#11: exit
+2022/01/05 20:29:50 [notice] 10#10: exit
+2022/01/05 20:29:50 [notice] 12#12: exit
+2022/01/05 20:29:50 [notice] 9#9: exit
+2022/01/05 20:29:50 [notice] 1#1: signal 14 (SIGALRM) received
+2022/01/05 20:29:50 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 20:29:50 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 20:29:50 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 20:29:50 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 20:29:50 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 20:29:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 20:29:50 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 20:29:50 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 20:29:50 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 20:29:50 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 20:29:50 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 20:29:50 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 20:29:50 [notice] 1#1: exit
+2022/01/05 20:41:30 [notice] 1#1: using the "epoll" event method
+2022/01/05 20:41:30 [notice] 1#1: nginx/1.20.2
+2022/01/05 20:41:30 [notice] 1#1: built by gcc 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) 
+2022/01/05 20:41:30 [notice] 1#1: OS: Linux 5.11.0-43-generic
+2022/01/05 20:41:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/01/05 20:41:30 [notice] 1#1: start worker processes
+2022/01/05 20:41:30 [notice] 1#1: start worker process 7
+2022/01/05 20:41:30 [notice] 1#1: start worker process 8
+2022/01/05 20:41:30 [notice] 1#1: start worker process 9
+2022/01/05 20:41:30 [notice] 1#1: start worker process 10
+2022/01/05 20:41:30 [notice] 1#1: start worker process 11
+2022/01/05 20:41:30 [notice] 1#1: start worker process 12
+2022/01/05 21:00:02 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/01/05 21:00:02 [notice] 12#12: exiting
+2022/01/05 21:00:02 [notice] 9#9: exiting
+2022/01/05 21:00:02 [notice] 7#7: exiting
+2022/01/05 21:00:02 [notice] 10#10: exiting
+2022/01/05 21:00:02 [notice] 8#8: exiting
+2022/01/05 21:00:02 [notice] 11#11: exiting
+2022/01/05 21:00:02 [notice] 8#8: exit
+2022/01/05 21:00:02 [notice] 7#7: exit
+2022/01/05 21:00:02 [notice] 12#12: exit
+2022/01/05 21:00:02 [notice] 10#10: exit
+2022/01/05 21:00:02 [notice] 11#11: exit
+2022/01/05 21:00:02 [notice] 9#9: exit
+2022/01/05 21:00:03 [notice] 1#1: signal 17 (SIGCHLD) received from 12
+2022/01/05 21:00:03 [notice] 1#1: worker process 9 exited with code 0
+2022/01/05 21:00:03 [notice] 1#1: worker process 12 exited with code 0
+2022/01/05 21:00:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 21:00:03 [notice] 1#1: signal 17 (SIGCHLD) received from 11
+2022/01/05 21:00:03 [notice] 1#1: worker process 11 exited with code 0
+2022/01/05 21:00:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 21:00:03 [notice] 1#1: signal 17 (SIGCHLD) received from 8
+2022/01/05 21:00:03 [notice] 1#1: worker process 8 exited with code 0
+2022/01/05 21:00:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 21:00:03 [notice] 1#1: signal 17 (SIGCHLD) received from 10
+2022/01/05 21:00:03 [notice] 1#1: worker process 10 exited with code 0
+2022/01/05 21:00:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/01/05 21:00:03 [notice] 1#1: signal 17 (SIGCHLD) received from 7
+2022/01/05 21:00:03 [notice] 1#1: worker process 7 exited with code 0
+2022/01/05 21:00:03 [notice] 1#1: exit

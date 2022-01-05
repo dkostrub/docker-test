@@ -1,0 +1,20 @@
+FROM php:7.2-fpm
+
+MAINTAINER Dmitriy Kostrub <dmitriy.kostrub@forforce.com>
+
+ARG username="prestaking"
+ARG password="presta"
+ARG PHP_FPM_PORT
+
+RUN apt-get update && docker-php-ext-install pdo_mysql mysqli
+RUN curl -sS https://getcomposer.org/installer | php && \
+    mv composer.phar /usr/local/bin/composer
+
+#ADD settings/php/php.ini /usr/local/etc/php/
+#RUN chmod 755 /usr/local/etc/php/php.ini
+#RUN useradd -s /bin/bash -d /home/${username} ${username} && echo "${username}:${password}" | chpasswd
+WORKDIR /var/www
+#RUN chown -R ${username}:${username} /var/www
+#RUN chmod -R 755 /var/www
+
+CMD ["php-fpm"]
